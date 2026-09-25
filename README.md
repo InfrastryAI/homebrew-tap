@@ -1,18 +1,20 @@
-# InfrastryAI Tap
+# Infrastry Homebrew Tap
 
-## How do I install these formulae?
+Install the Infrastry CLI:
 
-`brew install infrastryai/tap/<formula>`
+```sh
+brew install infrastryai/tap/infrastry
+infra version
+```
 
-Or `brew tap infrastryai/tap` and then `brew install <formula>`.
+This installs the `infra` command. You can also run `brew tap infrastryai/tap`
+and then `brew install infrastry`.
 
-Or, in a `brew bundle` `Brewfile`:
+In a `Brewfile`:
 
 ```ruby
 tap "infrastryai/tap"
-brew "<formula>"
+brew "infrastry"
 ```
 
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+See the [CLI documentation](https://github.com/InfrastryAI/infra#readme) for setup and usage.
